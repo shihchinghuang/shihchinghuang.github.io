@@ -1,4 +1,4 @@
-# [WEB LINK (click me)](https://shihchinghuang.github.io/React-personal-web/)
+# [WEB LINK (click me)](https://shihchinghuang.github.io/)
 
 # Getting Started with Create React App
 
