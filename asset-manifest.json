@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.8233e4e6.chunk.css",
-    "main.js": "/static/js/main.895aa024.chunk.js",
-    "main.js.map": "/static/js/main.895aa024.chunk.js.map",
+    "main.js": "/static/js/main.081f8980.chunk.js",
+    "main.js.map": "/static/js/main.081f8980.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1eaea8e8.js",
     "runtime-main.js.map": "/static/js/runtime-main.1eaea8e8.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/static/css/2.7fc9bc2b.chunk.css",
@@ -20,6 +20,7 @@
     "static/media/meierq.8ed53491.png": "/static/media/meierq.8ed53491.png",
     "static/media/profile-pic.94ab4bea.jpeg": "/static/media/profile-pic.94ab4bea.jpeg",
     "static/media/reactapi.ae626786.png": "/static/media/reactapi.ae626786.png",
+    "static/media/taiwanMatters.6d349e2b.png": "/static/media/taiwanMatters.6d349e2b.png",
     "static/media/styles.css": "/static/media/titlebg.9fa323b2.svg",
     "static/media/tnl.1d3f7a82.png": "/static/media/tnl.1d3f7a82.png",
     "static/media/waves.c56d1bec.svg": "/static/media/waves.c56d1bec.svg",
@@ -30,6 +31,6 @@
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.0e0e03d6.chunk.js",
     "static/css/main.8233e4e6.chunk.css",
-    "static/js/main.895aa024.chunk.js"
+    "static/js/main.081f8980.chunk.js"
   ]
 }
