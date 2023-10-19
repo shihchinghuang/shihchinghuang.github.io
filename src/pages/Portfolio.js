@@ -7,9 +7,16 @@ import jsapi from '../img/jsapi.png';
 import tnl from '../img/tnl.png';
 import meierq from '../img/meierq.png';
 import lunarphase from '../img/lunarphase.png';
+import taiwanMatters from '../img/taiwanMatters.png';
 
 const Portfolio = () => {
   const data = [
+    {
+      title: 'Taiwan Matters',
+      img: taiwanMatters,
+      repo: 'https://github.com/shihchinghuang/tw-news-app',
+      pages: 'https://taiwan-matters.vercel.app/feed',
+    },
     {
       title: 'JavaScript mini games',
       img: jsminigame,
