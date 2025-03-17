@@ -10,7 +10,7 @@ const Homepage = () => {
       <div className="leftBox">
         <div className="introCard" data-aos="fade-right">
           <img src={ProfilePic} alt="" />
-          <div>
+          <div className="info">
             <h1>Sunny Huang</h1>
             <p></p>
             <h3>Front End Engineer</h3>

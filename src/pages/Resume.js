@@ -1,20 +1,14 @@
-import React, { useState } from 'react';
-import ResumeSeeMore from '../components/ResumeSeeMore';
+import React from 'react';
 
 const Resume = () => {
-  const [content, setContent] = useState(false);
-  const showContent = () => {
-    setContent(!content);
-  };
   return (
     <div className="resume" id="resume">
       <h1>Resume</h1>
       <div className="section" data-aos="fade-up">
         <div className="about">
           <p>
-            • I am a recent graduate with Master's in Computer Science. As a
-            Software Engineer specializing in Front End, my tech stack includes
-            HTML, CSS, JavaScript, React, Node.js and more.
+            • I am a Software Engineer with 2 years of experience, specializing
+            in Frontend web development.
           </p>
           <br />
           <p>
@@ -31,170 +25,183 @@ const Resume = () => {
         <h3>| Experience |</h3>
         <div className="experience">
           <div className="box">
+            <p>Senior Software Engineer</p>
             <div className="title">
-              <p>Software Engineering Fellow @ Formation</p>
-              <p>Oct 2022 - Present</p>
+              <p>Southern Glazer's Wine and Spirits</p>
+              <p>Jan 2025 - Present</p>
             </div>
-            {/* <ResumeSeeMore
-              content={content}
-              setContent={setContent}
-              showContent={showContent}
-            /> */}
-            <div className={'content ' + (content && 'active')}>
+            <br />
+            <div>
               <p>
-                - Selected for a highly competitive Fellowship, working with
-                top-tier software engineers to enhance technical and
-                communication skills
+                - Led the integration of Adobe Analytics, partnering with
+                cross-functional teams to define key metrics, enabling precise
+                user behavior tracking and driving data-informed decision-making
               </p>
+              <br />
               <p>
-                {' '}
-                - Nominated by peers for the weekly Rising Tide award for
-                facilitating collaborations through proactive initiatives,
-                fostering an inclusive environment, and ensuring collective
-                success
+                - Spearheaded the development of the Deals page, implementing
+                complex business logic to consider volume-based discounts,
+                handling various pricing combinations
               </p>
+              <br />
               <p>
-                - Elevated mastery over advanced computer science principles via
-                self-driven research, collaborative pair programming, and
-                engaged participation in mentor-led group sessions
-              </p>
-              <p>
-                - Skills: JavaScript, React.js, HTML, Cascading Style Sheets
-                (CSS), Front-End Development, Algorithms, Data Structures,
-                Software Engineering
+                - Integrated a new Design System and migrated the styling
+                solution from Material UI to Tailwind CSS, ensuring brand visual
+                consistency across the platform
               </p>
             </div>
           </div>
           <div className="box">
+            <p>Software Engineer</p>
             <div className="title">
-              <p>Software Engineer @ Chow Sang Sang Jewelry</p>
-              <p>May 2021 - Dec 2021</p>
+              <p>Southern Glazer's Wine and Spirits</p>
+              <p>May 2024 - Jan 2025</p>
             </div>
-            {/* <ResumeSeeMore
-              content={content}
-              setContent={setContent}
-              showContent={showContent}
-            /> */}
-            <div className={'content ' + (content && 'active')}>
+            <br />
+            <div>
               <p>
-                - Proactively proposed and implemented a solution to enable
-                mobile access, addressing a critical gap in product
-                functionality using HTML, CSS, JavaScript, React
+                - Drove $42M in incremental sales with 14% growth on Coveo (new)
+                markets (vs. 3% on Solr, old) by transforming the search
+                experience for a leading B2B beverage alcohol eCommerce platform
               </p>
+              <br />
               <p>
-                - Led the refactoring of the codebase to create responsive user
-                interfaces, resulting in a mobile-friendly version and driving a
-                50% increase in user engagement
+                - Independently developed key features, including the enhanced
+                Results Page, while collaborating with product designers, QA,
+                and product managers, resulting in a 15% increase in revenue
               </p>
+              <br />
               <p>
-                - Teamed up with cross-functional groups, including backend
-                engineers, project managers, and graphic designers, using Git
-                for version control to ensure cohesive website development
-              </p>
-              <p>
-                Skills: JavaScript, React.js, HTML, Cascading Style Sheets
-                (CSS), Git, Search Engine Optimization (SEO)
+                - Reduced build time from over 40 seconds to under 2 seconds by
+                optimizing Webpack configuration, significantly improving
+                productivity and streamlining the development experience
               </p>
             </div>
           </div>
 
           <div className="box">
+            <p>Software Engineer</p>
             <div className="title">
+              <p>Hsjchao Company Ltd.</p>
+              <p>Apr 2021 - Dec 2021</p>
+            </div>
+            <br />
+            <div>
               <p>
-                Software Engineering Intern @ Institute for Information Industry
+                - Proactively proposed and implemented a solution to enable
+                mobile access, addressing a critical gap in product
+                functionality using HTML, CSS, JavaScript, and React
               </p>
+              <br />
+              <p>
+                - Enhanced user satisfaction by 50% through codebase
+                refactoring, which involved cleaning up legacy code and boosting
+                performance for responsive interfaces on mobile devices
+              </p>
+              <br />
+              <p>
+                - Introduced pagination for faster load times, transforming user
+                experiences by minimizing data retrieval delays and optimizing
+                performance
+              </p>
+            </div>
+          </div>
+          <div className="box">
+            <p>Software Engineering Intern</p>
+            <div className="title">
+              <p>Hsjchao Company Ltd.</p>
               <p>Feb 2021 - Apr 2021</p>
             </div>
-            {/* <ResumeSeeMore
-              content={content}
-              setContent={setContent}
-              showContent={showContent}
-            /> */}
-            <div className={'content ' + (content && 'active')}>
+            <br />
+            <div>
               <p>
                 - Designed and built a full-stack comprehensive web application
                 “Lunar Phase”, a brand aimed at a revolution of feminine
                 hygiene, streamlining the brand prototyping process
               </p>
-
+              <br />
               <p>
                 - Architected the comment feature including creating, reading,
                 updating, deleting, and liking comments using a React UI, MySQL
                 database, and Node.js server
               </p>
-
+              <br />
               <p>
-                - Led a team of 5, using Trello for project management and Git
-                for version control, devising collaborative workflows, and
-                upholding project scope and stringent quality standards
-              </p>
-              <p>
-                Skills: JavaScript, React.js, Node.js, HTML, Cascading Style
-                Sheets (CSS), MySQL, Adobe XD, Figma (Software), GitHub,
-                Bootstrap
+                - Led a team of 5 other interns, using Jira for project
+                management and Git for version control, devising collaborative
+                workflows, and upholding project scope and stringent quality
+                standards
               </p>
             </div>
           </div>
           <div className="box">
+            <p>Legislative Assistant</p>
             <div className="title">
-              <p>Legislative Assistant @ Congress of Taiwan</p>
+              <p>Congress of Taiwan</p>
               <p>Aug 2018 - Feb 2021</p>
             </div>
-            {/* <ResumeSeeMore
-              content={content}
-              setContent={setContent}
-              showContent={showContent}
-            /> */}
-            <div className={'content ' + (content && 'active')}>
+            <div>
+              <br />
               <p>
                 - Led the development of more than 5 legislative bills and 50
                 national budget proposals from the ground up that aligned with
                 the Party's vision and addressed the country's needs
               </p>
+              <br />
               <p>
                 - Thrived in a high-pressure, fast-paced team setting, enhancing
                 multitasking abilities to efficiently prepare for intense
                 political engagements involving lawmakers, social organizations,
                 and various parties
               </p>
-
+              <br />
               <p>
                 - Adeptly distilled intricate information, delivering nuanced
                 summaries and actionable insights to legislators, showcasing
                 strong analytical skills and communication finesse
               </p>
+              <br />
               <p>
                 - Took part of The Committee on Education and Technology,
                 providing oversight over crucial entities such as the Ministry
                 of Education (Taiwan) and the National Science and Technology
                 Council (Taiwan)
               </p>
-              <p>
-                Skills: Analytical Skills, Communication, Research, Team
-                Management, Public Policy, Politics
-              </p>
             </div>
           </div>
           <h3>| Education |</h3>
           <div className="box">
+            <p>Master of Science, Computer Science</p>
             <div className="title">
-              <p>
-                Master of Science, Computer Science @ San Francisco Bay
-                University
-              </p>
+              <p>San Francisco Bay University</p>
               <p>Jan 2022 - Aug 2023</p>
             </div>
-            {/* <ResumeSeeMore
-              content={content}
-              setContent={setContent}
-              showContent={showContent}
-            /> */}
-            <div className={'content ' + (content && 'active')}>
+            <br />
+            <div>
               <p>
                 Coursework: Algorithms, Data Structures, Object-Oriented Design
                 in Python, Database, Java and Internet Application, Network
                 Security, Software Quality Assurance and Test Automation, Big
                 Data Processing & Analytics
+              </p>
+            </div>
+          </div>
+          <h3>| Skills |</h3>
+          <div className="box">
+            <div>
+              <p>
+                - Programming Languages: JavaScript, TypeScript, Python, Java
+              </p>
+              <br />
+              <p>
+                - Web Development Skills: Next.js, React, Redux, Node.js,
+                Express.js, Angular, HTML5, CSS3, SCSS (Sass), Tailwind CSS,
+                Material UI, Storybook, SQL, NoSQL, MongoDB, Jest
+              </p>
+              <br />
+              <p>
+                - Other Skills: Figma, Git, GitHub, Jira, Confluence, AJAX,
+                JSON, Object-Oriented Programming
               </p>
             </div>
           </div>
